@@ -98,3 +98,124 @@ aside {
 aside ul a {
   max-width: 100%;
 }
+
+.thumbnile {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.aspect-ratio {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#recommended .thumbnile .aspect-ratio .spacer {
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.thumbnile .aspect-ratio img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.centered {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.video-avatar {
+  display: inline-flex;
+  width: 40px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  position: relative;
+  max-height: 40px;
+}
+
+.video-avatar .spacer {
+  padding-bottom: 100%;
+}
+
+.video-avatar img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 999px;
+}
+
+#recently .spacer,
+#categories .spacer {
+  padding-bottom: 133.333%;
+  width: 100%;
+}
+
+.tags > div {
+  user-select: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.5rem;
+}
+
+.s-row {
+  display: flex;
+  margin: 0 -5px;
+  min-width: 100%;
+  flex-wrap: wrap;
+}
+
+.s-row > * {
+  width: 120px;
+  flex: 1 0 auto;
+  max-width: 50%;
+  padding: 0 5px;
+}
+
+.s-card a {
+  color: inherit !important;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  gap: 8px;
+}
+
+.hover\:underline:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.duration-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 4px;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+@media (min-width: 991.98px) {
+  .lg\:ms-\[240px\] {
+    margin-left: 240px;
+  }
+}
