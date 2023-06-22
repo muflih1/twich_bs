@@ -81,6 +81,10 @@ aside {
   font-size: 12px;
 }
 
+.fs-\[12px\] {
+  font-size: 12px;
+}
+
 .ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -184,6 +188,16 @@ aside ul a {
 
 .s-card a {
   color: inherit !important;
+}
+
+.s-card h1 {
+  margin-bottom: 5px !important;
+}
+
+.s-card p {
+  margin-bottom: 0 !important;
+  font-size: 13px;
+  color: #59595b;
 }
 
 .tags {
